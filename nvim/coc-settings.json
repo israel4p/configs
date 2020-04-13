@@ -1,0 +1,9 @@
+{
+  "python.jediEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "emmet.includeLanguages": {"vue-html": "html", "javascript": "javascriptreact"},
+  "html.enable": true,
+  "html.format.enable": true,
+  "html.filetypes": ["html", "htmldjango"]
+}

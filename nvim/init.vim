@@ -20,6 +20,7 @@ call plug#begin()
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
   Plug 'camspiers/lens.vim'
   Plug 'mattn/emmet-vim'
+  Plug 'tpope/vim-commentary'
 call plug#end()
 
 " Themes

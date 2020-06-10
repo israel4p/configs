@@ -1,0 +1,36 @@
+# Editor
+set editor = vi
+set charset = "utf-8"
+
+# Signature
+set signature = ~/.mutt/assinatura.sig
+
+# About-me
+set from = "USUARIO@gmail.com"
+set realname = "NOME"
+set use_from = yes
+set envelope_from = yes
+
+# Credential
+set imap_user = "USUARIO@gmail.com"
+set imap_pass = "SENHA"
+set smtp_url = "smtps://USUARIO@gmail.com@smtp.gmail.com:465/"
+set smtp_pass = "SENHA"
+
+# Secure
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+# Receive mailboxes
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile="+INBOX"
+
+# Update a buffer in
+set timeout = 20
+
+# GPG
+#source ~/.mutt/gpg.rc
+
+# Theme
+source ~/.mutt/theme/colors-gruvbox-shuber.muttrc
+source ~/.mutt/theme/colors-gruvbox-shuber-extended.muttrc

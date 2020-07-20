@@ -37,6 +37,9 @@ let g:gruvbox_contrast_dark='hard'
 let g:gruvbox_italic=1
 colorscheme gruvbox
 
+" Color Column all files
+set colorcolumn=79
+
 " Better display for messages
 set cmdheight=2
 
@@ -71,6 +74,9 @@ set splitright
 
 " Highlighting cursor
 set cursorline
+
+" Enable clipboard (install xclip)
+set clipboard=unnamedplus
 
 " Configuracao json                                                                                                                 
 let g:indentLine_fileTypeExclude = ['json']

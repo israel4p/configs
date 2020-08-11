@@ -46,6 +46,9 @@ set cmdheight=2
 " Number of lines
 set number
 
+" Mouse Select
+set mouse=a
+
 " Absolute line numbers
 set rnu
 

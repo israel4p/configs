@@ -152,6 +152,9 @@ autocmd Filetype markdown setlocal expandtab shiftwidth=4 colorcolumn=79 smartin
 
 " Atalhos
 
+" Esc entra no modo de navegacao no shell
+tnoremap <Esc> <C-\><C-n>
+
 " Sair ctrl+q
 map <C-q> :quit<cr>
 

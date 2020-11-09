@@ -21,6 +21,7 @@ call plug#begin()
   Plug 'camspiers/lens.vim'
   Plug 'mattn/emmet-vim'
   Plug 'tpope/vim-commentary'
+  Plug 'toniz4/vim-stt'
 call plug#end()
 
 " Themes
@@ -83,6 +84,10 @@ set clipboard=unnamedplus
 
 " Configuracao json                                                                                                                 
 let g:indentLine_fileTypeExclude = ['json']
+
+" Configuracao stt
+let g:stt_auto_insert=1
+let g:stt_auto_quit=1
 
 " Configuracao svelte
 let g:svelte_indent_script = 0
@@ -172,6 +177,9 @@ nnoremap <c-p> :Files<cr>
 autocmd BufNewFile,BufRead *.py nnoremap <F5> :!python3 % <cr>
 autocmd BufNewFile,BufRead *.js nnoremap <F5> :!node % <cr>
 autocmd BufNewFile,BufRead *.sh nnoremap <F5> :!bash % <cr>
+
+" Abre terminal
+nmap <F4> :ToggleTerm <cr>
 
 " Split navigations
 nnoremap <C-J> <C-W><C-J>

@@ -48,7 +48,7 @@ set cmdheight=2
 set number
 
 " Mouse Select
-set mouse=a
+"set mouse=a
 
 " Absolute line numbers
 set rnu
@@ -166,8 +166,8 @@ map <C-q> :quit<cr>
 " Salvar ctrl+s
 map <C-s> :w<cr>
 
-" Abre o NERDTree com Ctrl+\
-map <C-\> :NERDTreeToggle<cr>
+" Abre o NERDTree com F3
+map <F3> :NERDTreeToggle<cr>
 nmap <leader>r :NERDTreeFocus<cr>R<c-w>
 
 " Chama o plugin fzf com Ctrl+p
